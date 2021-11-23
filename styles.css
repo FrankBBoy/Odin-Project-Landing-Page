@@ -4,6 +4,8 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     align-content: space-around;
+    margin: 0;
+    
 }
 
 .header {
@@ -33,6 +35,7 @@ header img {
     justify-content: space-between;
     padding-bottom: 36px;
     gap: 36px;
+    padding: 36px
 }
 
 .intro h1 {
@@ -138,7 +141,12 @@ button {
 .call-to-action {
     display: flex;
     flex-direction: column;
-    
+    width: 400px;
+    padding: 16px;  
+}
+
+.call-to-action h4, .call-to-action p {
+    margin: 0 0;
 }
 
 footer {
